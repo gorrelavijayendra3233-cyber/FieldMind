@@ -1,0 +1,158 @@
+.mandi-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* BANNER */
+.mandi-banner {
+  background: #1a7a3c;
+  border-radius: 18px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.mandi-banner-label {
+  font-size: 0.72rem;
+  opacity: 0.7;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.mandi-banner-name {
+  font-size: 1.1rem;
+  font-weight: 900;
+  margin-top: 4px;
+}
+
+.mandi-banner-dist {
+  font-size: 0.78rem;
+  opacity: 0.7;
+  margin-top: 2px;
+  font-weight: 600;
+}
+
+.mandi-banner-btns {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.banner-btn {
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.banner-btn.solid {
+  background: white;
+  border: none;
+  color: #1a7a3c;
+}
+
+.banner-btn.outline {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: white;
+}
+
+.banner-btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+/* PRICES */
+.prices-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #1a2e1a;
+}
+
+.prices-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.crop-row {
+  background: white;
+  border: 1px solid #dde8d8;
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.crop-row:hover {
+  border-color: #1a7a3c;
+  box-shadow: 0 4px 16px rgba(26,122,60,0.1);
+}
+
+.crop-name {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #1a2e1a;
+}
+
+.crop-hindi {
+  font-size: 0.75rem;
+  color: #6b7c6b;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.crop-prev {
+  font-size: 0.7rem;
+  color: #6b7c6b;
+  margin-top: 4px;
+}
+
+.crop-price {
+  font-size: 1rem;
+  font-weight: 900;
+  color: #1a7a3c;
+  text-align: right;
+}
+
+.crop-change {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-align: right;
+  margin-top: 2px;
+}
+
+.crop-change.up { color: #25a355; }
+.crop-change.down { color: #e53935; }
+
+/* AI PREDICTION */
+.ai-prediction {
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.ai-title {
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: #1a2e1a;
+  margin-bottom: 8px;
+}
+
+.ai-text {
+  font-size: 0.82rem;
+  color: #6b7c6b;
+  line-height: 1.6;
+  font-weight: 600;
+}
