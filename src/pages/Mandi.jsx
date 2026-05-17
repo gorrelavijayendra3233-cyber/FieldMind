@@ -15,7 +15,7 @@ function Mandi() {
     setLoading(true);
     setError('');
     try {
-      const response = await fetch('http://localhost:5000/api/mandi');
+      const response = await fetch('https://fieldmind-backend.onrender.com/api/mandi');
       const data = await response.json();
 
       if (data.success && data.prices.length > 0) {

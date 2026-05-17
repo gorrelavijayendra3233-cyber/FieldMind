@@ -32,7 +32,7 @@ function App() {
 
   const fetchAllData = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/mandi');
+      const response = await fetch('https://fieldmind-backend.onrender.com/api/mandi');
       const data = await response.json();
       if (data.success) setMandiPrices(data.prices);
     } catch (err) {
